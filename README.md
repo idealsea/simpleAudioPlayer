@@ -22,5 +22,5 @@ How to use?
 </section>
 ```
 ```js
-audioPlay('audio1','audioDuration', 'audioProgress', 'audio-play2');
+audioPlay('audio1','audioDuration', 'audioProgress', 'btnPlay2');
 ```
