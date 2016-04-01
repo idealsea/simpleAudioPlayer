@@ -23,10 +23,10 @@ How to use?
 ```
 ```js
 audioPlay('audio1','audioDuration', 'audioProgress', 'btnPlay2');
-$('#audio-play1,#audio-play2').on('click', function () {
+$('#btnPlay1,#btnPlay2').on('click', function () {
     var audio1 = document.getElementById('audio1'),
         audioStatus = audio1.getAttribute('data-status') ;
-    var $btnPlay2 = $('#audio-play2');
+    var $btnPlay2 = $('#btnPlay2');
     if (parseInt(audioStatus) == 1) {
         audio1.play();
         $btnPlay2.text('暂停');
