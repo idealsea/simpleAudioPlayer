@@ -40,3 +40,5 @@ $('#btnPlay1,#btnPlay2').on('click', function () {
     }
 });
 ```
+---
+连猴子都懂的Git命令add 把变更录入到索引中
